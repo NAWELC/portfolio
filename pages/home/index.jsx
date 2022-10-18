@@ -1,14 +1,14 @@
-import Layout from "@src/components/layouts/layout";
-import Content from "@pages/home/content";
+import Navbar from '@src/components/layout/navbar'
+import Footer from '@src/components/layout/footer'
 
 
 const HomePage = () => {
     return (
-        <>
-        <Layout children={<Content/>}/>
-        </>
+        <div>
+            <Navbar />
+            <Footer />
+        </div>
     );
-
 };
 
 export default HomePage;
