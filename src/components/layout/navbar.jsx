@@ -1,28 +1,31 @@
+import { color } from "@mui/system";
+
 let styles = {
-    navbar: "flex flex-row"
-}
+  color: "bg-blue-300 h-30",
+  flex: "flex justify-around pl-44 pt-8",
+  nom: " flex justify-center pt-8 italic text-3xl  ",
+};
 
 const Navbar = () => {
-    return (
-         <nav>
-            <div>
-                <img src="https://images.pexels.com/photos/1549326/pexels-photo-1549326.jpeg" alt="auto" height={200} width={300}/>
-            </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="#">link1</a>
-                        </li>
-                        <li>
-                            <a href="#">link2</a>
-                        </li>
-                        <li>
-                            <a href="#">link3</a>
-                        </li>
-                    </ul>
-            </div>
-        </nav>
-    )
-}
+  return (
+    <nav className={styles.color}>
+      <ul className={styles.flex}>
+        <li>
+          <a href="#">accueil</a>
+        </li>
+        <li>
+          <a href="#">à propos</a>
+        </li>
+        <li>
+          <a href="#">projets</a>
+        </li>
+        <li>
+          <a href="#">contact</a>
+        </li>
+      </ul>
+      
+    </nav>
+  );
+};
 
 export default Navbar;
