@@ -1,6 +1,7 @@
 import Navbar from '@src/components/layout/navbar'
 import Footer from '@src/components/layout/footer'
 import Presentation from "@src/components/layout/presentation"
+import TextPresentation from '@src/components/layout/textPresentation';
 
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
         <div>
             <Navbar />
             <Presentation />
+            <TextPresentation />
             <Footer />
         </div>
     );
