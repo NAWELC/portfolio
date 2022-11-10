@@ -4,15 +4,12 @@ let styles = {
 
 const Footer = () => {
   return (
-    <footer>
-      {/* FT main */}
-      <div className={styles.FTdiv}>
-        {/* FT div 1 */}
-        
-        
-      </div>
-    </footer>
-  );
+    <>
+      <footer>
+  
+</footer>
+  </>
+  )
 };
 
 export default Footer;
