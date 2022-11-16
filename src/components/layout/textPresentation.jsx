@@ -6,10 +6,10 @@ import image5 from "@src/assets/img/agence-eclair.png";
 
 
 let styles = {
-  text: " text-center pl-4  ",
+  text: " text-center pl-4",
   paragraphe: "text-left pl-4",
-  padding: "pt-8  ",
-  aspect: "backdrop-blur-sm  bg-white/30",
+  padding: "pt-8",
+  aspect: "backdrop-blur-sm bg-white/30",
 };
 
 const TextPresentation = () => {
