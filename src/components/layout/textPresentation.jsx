@@ -3,7 +3,7 @@ import image from "@src/assets/img/boxe.png";
 import IMAGE3 from "@src/assets/img/image-landing-page2.png";
 import IMAGE4 from "@src/assets/img/capture-ecran-cv.png";
 import image5 from "@src/assets/img/agence-eclair.png";
-import AOS from "aos";
+
 
 let styles = {
   text: " text-center pl-4  ",
@@ -30,6 +30,7 @@ const TextPresentation = () => {
         <br />
 
         <div className="flex flex-col items-center ">
+        
           <div className="rounded-lg max-w-sm border-8 mb-10 pb-4 ">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <Image className="rounded-t-lg" src={image} alt="" />
@@ -69,7 +70,9 @@ const TextPresentation = () => {
                   height={132}
                 />
               </a>
+              
               <div class="p-6">
+              
                 <h5 class="text-gray-900 text-xl font-medium mb-2">
                   landing-page
                 </h5>
