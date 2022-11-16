@@ -1,9 +1,10 @@
 import { color } from "@mui/system";
 
 let styles = {
-  color: "bg-red-100 h-30",
-  flex: "flex justify-around pl-44 pt-8",
-  nom: " flex justify-center pt-8 italic text-3xl  ",
+  color: "bg-red-100 W-full",
+  flex: "flex justify-around pl-44 pt-8 ",
+  nom: " flex justify-center pt-8 italic text-3xl ",
+
 };
 
 const Navbar = () => {
