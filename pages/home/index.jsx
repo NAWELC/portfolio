@@ -4,6 +4,7 @@ import Presentation from "@src/components/layout/presentation"
 import TextPresentation from '@src/components/layout/textPresentation';
 import Contact from "@src/components/layout/contact";
 
+
 const HomePage = () => {
     return (
         <div>
