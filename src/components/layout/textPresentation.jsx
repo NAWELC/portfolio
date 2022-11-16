@@ -21,7 +21,7 @@ const TextPresentation = () => {
       <h1>A PROPOS DE MOI</h1>
       <p className={styles.text}>
         je suis actuellement en formation de Developpeur-web web mobile a
-        l&apos;Acces Code School,je suis à la recherche d'un stage du 9 janvier au 3
+        l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9 janvier au 3
         mars 2023
       </p>
       <br />
