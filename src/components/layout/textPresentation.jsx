@@ -31,7 +31,7 @@ const TextPresentation = () => {
 
         <div className="flex flex-col items-center ">
         
-          <div className="rounded-lg max-w-sm border-8 mb-10 pb-4 ">
+          <div className="rounded-lg max-w-sm border-8 mb-10 pb-4" data-aos="zoom-in-up" >
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <Image className="rounded-t-lg" src={image} alt="" />
             </a>
@@ -53,7 +53,7 @@ const TextPresentation = () => {
             </a>
           </div>
 
-          <div class="flex flex-col items-center anmate bounce">
+          <div class="flex flex-col items-center" data-aos="zoom-in-up">
             <div
               class="rounded-lg shadow-lg  max-w-sm border-8  mb-10 "
               data-aos="fade-zoom-in"
@@ -92,7 +92,7 @@ const TextPresentation = () => {
             </div>
           </div>
 
-          <div className="flex justify-center ">
+          <div className="flex justify-center" data-aos="zoom-in-up">
             <div className="rounded-lg shadow-lg max-w-sm border-8">
               <a href="#">
                 <Image className="rounded-t-lg" src={IMAGE4} alt="" />
@@ -115,7 +115,7 @@ const TextPresentation = () => {
             </div>
           </div>
 
-          <div class="flex justify-center mt-10  ">
+          <div class="flex justify-center mt-10" data-aos="zoom-in-up">
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-8">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <Image
@@ -126,7 +126,7 @@ const TextPresentation = () => {
                   height={132}
                 />
               </a>
-              <div class="p-6">
+              <div class="p-6 ">
                 <h5 class="text-gray-900 text-xl font-medium mb-2">
                   Agence-Eclair
                 </h5>

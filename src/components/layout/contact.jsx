@@ -1,7 +1,7 @@
 const Contact = () => {
 return (
 
-<div class="container my-24 px-6 mx-auto border-8 flex flex-col items center pt-8  ">
+<div class="container my-24 px-6 mx-auto border-8 flex flex-col items center pt-8"data-aos="zoom-in-up">
 
 
 
