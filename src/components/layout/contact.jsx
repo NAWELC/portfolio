@@ -1,13 +1,13 @@
 const Contact = () => {
 return (
 
-<div class="container my-24 px-6 mx-auto border-8 flex flex-col items center pt-8"data-aos="zoom-in-up">
+<div class="container  px-6  mx-auto mb-12  "data-aos="zoom-in-up">
 
 
 
-<section class="mb-30 text-gray-800">
-  <div class="flex flex-wrap">
-    <div class="grow-0 shrink-0 basis-auto md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
+<section class=" text-gray-800 border-8 bg-white ">
+  <div class="flex flex-wrap ">
+    <div class="grow-0 shrink-0 bg- basis-auto md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
       <h2 class="text-3xl font-bold mb-6">Contactez-moi</h2>
       <p class="text-gray-500 mb-6">
         

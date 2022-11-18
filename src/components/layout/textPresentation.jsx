@@ -6,7 +6,7 @@ import image5 from "@src/assets/img/agence-eclair.png";
 
 
 let styles = {
-  text: " text-center pl-4",
+  text: " text-center pl-4 ",
   paragraphe: "text-left pl-4",
   padding: "pt-8",
   aspect: "backdrop-blur-sm bg-white/30",
@@ -31,7 +31,7 @@ const TextPresentation = () => {
 
         <div className="flex flex-col items-center ">
         
-          <div className="rounded-lg max-w-sm border-8 mb-10 pb-4" data-aos="zoom-in-up" >
+          <div className="rounded-lg max-w-sm border-8 mb-10 pb-4 bg-white" data-aos="zoom-in-up" >
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <Image className="rounded-t-lg" src={image} alt="" />
             </a>
@@ -71,7 +71,7 @@ const TextPresentation = () => {
                 />
               </a>
               
-              <div class="p-6">
+              <div class="p-6 bg-white">
               
                 <h5 class="text-gray-900 text-xl font-medium mb-2">
                   landing-page
@@ -92,7 +92,7 @@ const TextPresentation = () => {
             </div>
           </div>
 
-          <div className="flex justify-center" data-aos="zoom-in-up">
+          <div className="flex justify-center bg-white" data-aos="zoom-in-up">
             <div className="rounded-lg shadow-lg max-w-sm border-8">
               <a href="#">
                 <Image className="rounded-t-lg" src={IMAGE4} alt="" />
@@ -115,8 +115,8 @@ const TextPresentation = () => {
             </div>
           </div>
 
-          <div class="flex justify-center mt-10" data-aos="zoom-in-up">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm border-8">
+          <div class="flex justify-center mt-10 bg-white" data-aos="zoom-in-up">
+            <div class="rounded-lg shadow-lg  max-w-sm border-8">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <Image
                   class="rounded-t-lg"

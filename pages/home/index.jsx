@@ -7,7 +7,7 @@ import Travail from "@src/components/layout/travail";
 
 const HomePage = () => {
     return (
-        <div>
+        <div class= "bg-fuchsia-600">
             <Navbar />
             <Presentation />
             <TextPresentation />
