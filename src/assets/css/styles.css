@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Trickster";
+    src: local("Trickster"),
+      url("../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+        font-family: "Trickster";
+    src: local("Trickster"),
+      url("../fonts/Anton-regular/Anton-Regular.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  }
+
+  /* @font-face {
+    font-family: "Trickster";
+    src: local("Trickster"),
+      url("../fonts/Anton-regular/Anton-Regular.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  } */

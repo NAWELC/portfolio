@@ -9,13 +9,13 @@ let styles = {
 const presentation = () => {
   return (
     <div className={styles.nom}>
-      <h1>Chaib Nawel</h1>
+      <h1 className ="font-Anton">Chaib Nawel</h1>
       <div className={styles.divImg}>
         <Image
+        className="rounded-full object-cover" data-aos="zoom-in-up"
           src={image}
           alt=""
           title="image"
-          className="rounded-full object-cover"
           width={100}
           height={100}
         />

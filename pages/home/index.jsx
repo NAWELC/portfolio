@@ -4,6 +4,7 @@ import Presentation from "@src/components/layout/presentation"
 import TextPresentation from '@src/components/layout/textPresentation';
 import Contact from "@src/components/layout/contact";
 import Travail from "@src/components/layout/travail";
+import footer from  "@src/components/layout/footer";
 
 const HomePage = () => {
     return (
