@@ -77,7 +77,7 @@ const TextPresentation = () => {
                   landing-page
                 </h5>
                 <p class="text-gray-700 text-base mb-4 font-Berkshire_Swash">
-                  J 'ai réalisé ce projet avec Boostrap
+                  J&apos;ai réalisé ce projet avec Boostrap
                 </p>
                 <a href="http://public/landingpage/">
                   <button
