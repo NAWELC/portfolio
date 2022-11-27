@@ -13,7 +13,9 @@ const Footer = () => {
   <a href="https://github.com/NAWELC">
   <GitHubIcon className=""fontSize='large'/>
   </a>
+  <a href="https://www.linkedin.com/in/nawel-chaib/">
   <LinkedInIcon className="mx-4 lg:mx-8"fontSize='large'/>
+  </a>
   <LocalPhoneIcon classname=""fontsize='large'/>
   
   

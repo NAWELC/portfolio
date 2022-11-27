@@ -17,15 +17,15 @@ const TextPresentation = () => {
       <h1 className="font-Berkshire_Swash">Bonjour,je suis NAWEL CHAIB </h1>
       <h1 className="font-Berkshire_Swash">DEVELOPPEUSE WEB FRONT-END</h1>
       <br />
-      <h1>A PROPOS DE MOI</h1>
-      <p className="font-Berkshire_Swash">
+      <h1 className="font-Anton">A PROPOS DE MOI</h1>
+      <p className="font-Berkshire_Swash mx-8">
         je suis actuellement en formation de Developpeur-web web mobile a
         l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
         janvier au 3 mars 2023
       </p>
       <br />
       <div className={styles.padding}>
-        <h1>projets</h1>
+        <h1 className="font-Anton text-xl lg:text-2xl">projets</h1>
         <br />
 
         <div className="flex flex-col lg:flex-row items-center ">
@@ -54,9 +54,9 @@ const TextPresentation = () => {
             </a>
           </div>
 
-          <div class="flex flex-col items-center h-96" data-aos="zoom-in-up">
+          <div class="flex flex-col items-center  " data-aos="zoom-in-up">
             <div
-              class="  max-w-sm border-8 lg:mx-8 mb-10  rounded-lg"
+              class="max-w-sm border-8 lg:mx-8 mb-12  rounded-lg"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
