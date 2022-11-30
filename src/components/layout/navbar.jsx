@@ -1,27 +1,28 @@
-import { color } from "@mui/system";
 
 let styles = {
-  color: "bg-violet-600",
-  flex: "flex justify-around pl-44 pt-8 ",
-  nom: " flex justify-center pt-8 italic text-3xl ",
+  nav: "w-full z-50 bg-black text-white fixed top-0 uppercase p-4",
+  ul: "w-full flex flex-row justify-center",
 
 };
 
 const Navbar = () => {
   return (
-    <nav className={styles.color}>
-      <ul className={styles.flex}>
+    <nav className={styles.nav}>
+      <ul className={styles.ul}>
         <li>
-          <a href="#">accueil</a>
+          <a href="#" className="hover:text-violet-600">Accueil</a>
+        </li>
+        <li className="px-8">
+          <a href="#" className="hover:text-violet-600">Introduction</a>
         </li>
         <li>
-          <a href="#">à propos</a>
+          <a href="#" className="hover:text-violet-600">Parcours</a>
         </li>
-        <li>
-          <a href="#">projets</a>
+        <li className="px-8">
+          <a href="#" className="hover:text-violet-600">Projets</a>
         </li>
-        <li>
-          <a href="#">contact</a>
+        <li className="">
+          <a href="#" className="hover:text-violet-600">Contact</a>
         </li>
       </ul>
       

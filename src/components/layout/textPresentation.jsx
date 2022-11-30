@@ -5,7 +5,7 @@ import IMAGE4 from "@src/assets/img/capture-ecran-cv.png";
 import image5 from "@src/assets/img/agence-eclair.png";
 
 let styles = {
-  text: " text-center px-8 ",
+  text: " text-center px-8 pt-10 ",
   paragraphe: "text-left pl-4",
   padding: "pt-8",
   aspect: "backdrop-blur-sm bg-white/30",
@@ -14,33 +14,40 @@ let styles = {
 const TextPresentation = () => {
   return (
     <div className={styles.text}>
-      <h1 className="font-Berkshire_Swash">Bonjour,je suis NAWEL CHAIB </h1>
-      <h1 className="font-Berkshire_Swash">DEVELOPPEUSE WEB FRONT-END</h1>
-      <br />
-      <h1 className="font-Anton">A PROPOS DE MOI</h1>
-      <p className="font-Berkshire_Swash mx-8">
+      <h1 className="font-Anton uppercase">Introduction</h1>
+      <p className="font-Berkshire_Swash mx-8 pt-8">
         je suis actuellement en formation de Developpeur-web web mobile a
         l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
-        janvier au 3 mars 2023
+        janvier au 3 mars 2023. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Porro harum doloremque illum iure qui ullam excepturi
+        mollitia quasi assumenda! Commodi in odit maiores praesentium quod enim
+        aliquid excepturi non aliquam. Obcaecati, porro ducimus beatae
+        reiciendis nihil excepturi eligendi sit nostrum adipisci sunt, iure quos
+        libero odit. Optio repellat dolorem delectus porro neque doloremque enim
+        corrupti, unde ipsum, exercitationem molestiae ratione. Quas eaque
+        corrupti obcaecati blanditiis nam consectetur laboriosam ut illo
+        eveniet, perferendis sunt asperiores sed officiis, magnam id modi magni
+        in eius ratione, distinctio necessitatibus? Eveniet officia molestias
+        sit aliquid? Totam nam, error sit asperiores magnam pariatur iste.
+        Consequuntur dignissimos dolore laudantium cumque deleniti voluptatum
+        ipsam omnis accusantium perspiciatis quam accusamus reiciendis doloribus
+        quod eaque laborum, dolorem praesentium voluptas quisquam. Laudantium
+        esse architecto repellendus tempora culpa numquam aut vitae aperiam
+        blanditiis quasi deserunt, laboriosam voluptate labore molestiae veniam
+        officiis. Et aut animi alias eligendi autem voluptatem saepe sit
+        doloribus aspernatur.
       </p>
       <br />
       <div className={styles.padding}>
-        <h1 className="font-Anton text-xl lg:text-2xl">projets</h1>
-        <br />
-
-        <div className="flex flex-col lg:flex-row items-center ">
-          <div
-            className=" max-w-sm border-8 lg:mx-8 mb-10 pb-4 rounded-lg bg-white"
-            data-aos="zoom-in-up"
-          >
-            <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-              <Image className="" src={image} alt="" />
-            </a>
-            <h5 className="text-gray-900 text-xl font-medium mb-2">
-              wireframe
+        <h1 className="font-Anton text-xl lg:text-2xl uppercase">projets</h1>
+        <div className="grid grid-cols-4 pt-8">
+          <div className="h-150 border-8 pb-8 mx-4">
+            <Image className="" src={image} alt="" />
+            <h5 className="text-gray-900 text-xl font-medium py-8">
+              Wireframe
             </h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
-              Ce premier projet d&apos;integration wireframe m&apos;a permis de
+              Ce premier projet  d&apos;integration wireframe fait à 2 m&apos; a permis de
               me familiariser avec les langages HTML et CSS ,ainsi que
               l&apos;editeur VS CODE le serveur FTP et GITHUB
             </p>
@@ -53,103 +60,74 @@ const TextPresentation = () => {
               </button>
             </a>
           </div>
+          <div className="h-100 border-8 mx-4 ">
+            <Image className height={670} src={IMAGE3} alt="" />
+            <h5 className="text-gray-900 text-xl font-medium py-8 ">
+              LANDING-PAGE
+            </h5>
+            <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
+              j&apos;ai réalisé ce projet avec boostrap qui s&apos;adapteà la taille de l&apos;écran
+              voulu
+              je l&apos;ai réalisé en format mobile et desktop
+              J&apos;ai utilisé Github,VS CODE et le serveur filezilla
+            </p>
+            <a href="http://public/landingpage/">
+              <button
+                type="button"
+                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Visitez
+              </button>
+            </a>
+          </div>
+          <div className="h-100 border-8 mx-4">
+            <Image className height={790} src={IMAGE4} alt="" />
+            <h5 className="text-gray-900 text-xl font-medium py-8">
+              CV
+            </h5>
+            <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
+              j&apos;ai réalisé mon CV avec les langages de programmation HTML et CSS
+              et Vanilla qui est un langage de programmation basé sur du texte 
+              à la fois côté serveur et client,j'ai aussi utilisé Github
+            
+            </p>
+            <a href="https://nawelc-cv.netlify.app/">
+              <button
+                type="button"
+                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Visitez
+              </button>
+            </a>
+          </div>
+          <div className="h-100 border-8 mx-4">
+            <Image className height={840} src={image5} alt="" />
+            <h5 className="text-gray-900 text-xl font-medium py-8">
+              Agence Eclair
+            </h5>
+            <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
+              Ce projet a été réalisé en groupe,nous devions créer le site d&apos;une agence 
+              web qui est une société spécialisée dans la conception,le développement et 
+              la gestion de sites web
+            
+            </p>
+            <a href="https://agence-eclair.netlify.app/">
+              <button
+                type="button"
+                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Visitez
+              </button>
+            </a>
+          </div>
+        
+        
 
-          <div class="flex flex-col items-center  " data-aos="zoom-in-up">
-            <div
-              class="max-w-sm border-8 lg:mx-8 mb-12  rounded-lg"
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <Image
-                  classname=""
-                  src={IMAGE3}
-                  alt=""
-                  width={368}
-                  height={132}
-                />
-              </a>
-
-              <div class="p-12 bg-white ">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">
-                  landing-page
-                </h5>
-                <p class="text-gray-700 text-base mb-4 font-Berkshire_Swash">
-                  J&apos;ai réalisé ce projet avec Boostrap
-                </p>
-                <a href="http://public/landingpage/">
-                  <button
-                    type="button"
-                    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    visitez
-                  </button>
-                </a>
-              </div>
-            </div>
+          </div>
+          </div>
           </div>
 
-          <div
-            className="flex justify-center lg:mx-8 bg-white rounded-lg h-96 mt-8"
-            data-aos="zoom-in-up"
-          >
-            <div className="rounded-lg shadow-lg bg-white max-w-sm border-8 lg:-mt-6">
-              <a href="#">
-                <Image src={IMAGE4} alt="" />
-              </a>
-              <div className="p-12">
-                <h5 className="text-gray-900 text-xl font-medium mb-2">CV</h5>
-                <p className="text-gray-700 text-base mb-4 font-Berkshire_Swash">
-                  J&apos;ai codé mon cv en vanilla ,j&apos;ai utilisé seulement
-                  HTML et CSS 
-                </p>
-                <a href="https://nawelc-cv.netlify.app/">
-                  <button
-                    type="button"
-                    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    visitez
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="flex justify-center mt-12  lg:mx-8 border-8 bg-white rounded-lg"
-            data-aos="zoom-in-up"
-          >
-            <div class=" max-w-sm lg:border-2 rounded-lg h-96 ">
-              <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <Image
-                  class=""
-                  src={image5}
-                  alt=""
-                  />
-              </a>
-              <div class="p-12 ">
-                <h5 class="text-gray-900 text-xl font-medium mb-2 ">
-                  Agence-Eclair
-                </h5>
-                <p class="text-gray-700 text-base mb-4 font-Berkshire_Swash">
-                  ce projet a été réalisé en groupe afin de créer une agence web
-                </p>
-                <a href="https://agence-eclair.netlify.app/">
-                  <button
-                    type="button"
-                    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadowz-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    visitez
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          
   );
 };
 

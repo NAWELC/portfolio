@@ -2,14 +2,18 @@ import Image from "next/image";
 import image from "@src/assets/img/photo-nawel.jpg";
 
 let styles = {
-  nom: "flex flex-col items-center  pt-8 italic text-3xl bg-violet-600 ",
+  nom: "flex flex-col items-center  py-20 italic text-3xl bg-violet-600 ",
   divImg: "flex justify-center pb-2 pt-8",
 };
 
 const presentation = () => {
   return (
     <div className={styles.nom}>
-      <h1 className ="font-Anton">Chaib Nawel</h1>
+      <div className ="font-Anton text-center">
+        <h1>Bonjour, mon nom est</h1>
+        <h1>Chaib Nawel ! Je suis</h1>
+        <h1>Développeuse web Front-End</h1>
+      </div>
       <div className={styles.divImg}>
         <Image
         className="rounded-full object-cover" data-aos="zoom-in-up"
