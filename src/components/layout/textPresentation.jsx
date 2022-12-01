@@ -40,7 +40,7 @@ const TextPresentation = () => {
       <br />
       <div className={styles.padding}>
         <h1 className="font-Anton text-xl lg:text-2xl uppercase">projets</h1>
-        <div className="grid grid-cols-4 pt-8">
+        <div className="lg:grid grid-cols-4 pt-8">
           <div className="h-150 border-8 pb-8 mx-4">
             <Image className="" src={image} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8">
@@ -81,7 +81,7 @@ const TextPresentation = () => {
             </a>
           </div>
           <div className="h-100 border-8 mx-4">
-            <Image className height={790} src={IMAGE4} alt="" />
+            <Image className height={790}  src={IMAGE4} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8">
               CV
             </h5>
