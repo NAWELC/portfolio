@@ -5,6 +5,8 @@ import TextPresentation from '@src/components/layout/textPresentation';
 import Contact from "@src/components/layout/contact";
 import Travail from "@src/components/layout/travail";
 import footer from  "@src/components/layout/footer";
+import Parcours from "@src/components/layout/parcours";
+import { particleTest } from "@src/components/particle"
 
 const HomePage = () => {
     return (
@@ -13,8 +15,10 @@ const HomePage = () => {
             <Presentation />
             <TextPresentation />
             <Travail/>
+            <Parcours/>
             <Contact/>
             <Footer />
+            <particleTest />
         </div>
     );
 };

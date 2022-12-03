@@ -13,16 +13,19 @@ const Navbar = () => {
           <a href="#" className="hover:text-violet-600">Accueil</a>
         </li>
         <li className="px-8">
-          <a href="#" className="hover:text-violet-600">Introduction</a>
+          <a href="#" className="hover:text-violet-600">INTRODUCTION</a>
         </li>
         <li>
-          <a href="#" className="hover:text-violet-600">Parcours</a>
+          <a href="#" className="hover:text-violet-600">PROJETS</a>
         </li>
         <li className="px-8">
-          <a href="#" className="hover:text-violet-600">Projets</a>
+          <a href="#" className="hover:text-violet-600">COMPETENCES</a>
         </li>
         <li className="">
-          <a href="#" className="hover:text-violet-600">Contact</a>
+          <a href="#" className="hover:text-violet-600">PARCOURS</a>
+        </li>
+        <li className="px-8">
+          <a href="#" className="hover:text-violet-600">CONTACT</a>
         </li>
       </ul>
       

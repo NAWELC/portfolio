@@ -13,29 +13,18 @@ let styles = {
 
 const TextPresentation = () => {
   return (
-    <div className={styles.text}>
-      <h1 className="font-Anton uppercase">Introduction</h1>
-      <p className="font-Berkshire_Swash mx-8 pt-8">
+    <div className={styles.text} >
+      <h1 className="font-Anton text-2xl uppercase">INTRODUCTION</h1>
+      <p className="font-Berkshire_Swash mx-8 pt-8 lg:text-justify ">
         je suis actuellement en formation de Developpeur-web web mobile a
         l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
-        janvier au 3 mars 2023. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Porro harum doloremque illum iure qui ullam excepturi
-        mollitia quasi assumenda! Commodi in odit maiores praesentium quod enim
-        aliquid excepturi non aliquam. Obcaecati, porro ducimus beatae
-        reiciendis nihil excepturi eligendi sit nostrum adipisci sunt, iure quos
-        libero odit. Optio repellat dolorem delectus porro neque doloremque enim
-        corrupti, unde ipsum, exercitationem molestiae ratione. Quas eaque
-        corrupti obcaecati blanditiis nam consectetur laboriosam ut illo
-        eveniet, perferendis sunt asperiores sed officiis, magnam id modi magni
-        in eius ratione, distinctio necessitatibus? Eveniet officia molestias
-        sit aliquid? Totam nam, error sit asperiores magnam pariatur iste.
-        Consequuntur dignissimos dolore laudantium cumque deleniti voluptatum
-        ipsam omnis accusantium perspiciatis quam accusamus reiciendis doloribus
-        quod eaque laborum, dolorem praesentium voluptas quisquam. Laudantium
-        esse architecto repellendus tempora culpa numquam aut vitae aperiam
-        blanditiis quasi deserunt, laboriosam voluptate labore molestiae veniam
-        officiis. Et aut animi alias eligendi autem voluptatem saepe sit
-        doloribus aspernatur.
+        janvier au 3 mars 2023. 
+        En reconversion professionnelle ,je suis passionnée par l'informatique
+        depuis toujours.
+        Ce que j'aime dans ce métier ,c'est le coté creatif et travailler sur des 
+        projets nouveaux afin d'enrichir mes connaissances et évoluer dans ce 
+        domaine et donner le meilleur de moi-même .
+        
       </p>
       <br />
       <div className={styles.padding}>
