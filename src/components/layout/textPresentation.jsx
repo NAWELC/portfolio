@@ -19,9 +19,9 @@ const TextPresentation = () => {
         Je suis actuellement en formation de Developpeur-web web mobile a
         l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
         janvier au 3 mars 2023. En reconversion professionnelle ,je suis
-        passionnée par l'informatique depuis toujours. Ce que j'aime dans ce
-        métier ,c'est le coté creatif et travailler sur des projets nouveaux
-        afin d'enrichir mes connaissances et évoluer dans ce domaine et donner
+        passionnée par l&apos;informatique depuis toujours. Ce que j'aime dans ce
+        métier ,c&apos;est le coté créatif et travailler sur des projets nouveaux
+        afin d&apos;enrichir mes connaissances et évoluer dans ce domaine et donner
         le meilleur de moi-même .
       </p>
       
@@ -92,7 +92,7 @@ const TextPresentation = () => {
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
               Ce projet a été réalisé en groupe,nous devions créer le site
               d&apos;une agence web qui est une société spécialisée dans la
-              conception,le développement et la gestion de sites web
+              conception,le développement et la gestion de sites web.
             </p>
             <a href="https://agence-eclair.netlify.app/">
               <button
