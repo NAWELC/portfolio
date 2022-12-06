@@ -19,7 +19,7 @@ const TextPresentation = () => {
         Je suis actuellement en formation de Developpeur-web web mobile a
         l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
         janvier au 3 mars 2023. En reconversion professionnelle ,je suis
-        passionnée par l&apos;informatique depuis toujours. Ce que j'aime dans ce
+        passionnée par l&apos;informatique depuis toujours. Ce que j&apos;aime dans ce
         métier ,c&apos;est le coté créatif et travailler sur des projets nouveaux
         afin d&apos;enrichir mes connaissances et évoluer dans ce domaine et donner
         le meilleur de moi-même .
@@ -53,7 +53,7 @@ const TextPresentation = () => {
               LANDING-PAGE
             </h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
-              j&apos;ai réalisé ce projet avec boostrap qui s&apos;adapteà la
+              j&apos;ai réalisé ce projet avec boostrap qui s&apos;adapte à la
               taille de l&apos;écran voulu je l&apos;ai réalisé en format mobile
               et desktop J&apos;ai utilisé Github,VS CODE et le serveur
               filezilla
@@ -73,7 +73,7 @@ const TextPresentation = () => {
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
               j&apos;ai réalisé mon CV avec les langages de programmation HTML
               et CSS et Vanilla qui est un langage de programmation basé sur du
-              texte à la fois côté serveur et client,j'ai aussi utilisé Github
+              texte à la fois côté serveur et client,j&apos;ai aussi utilisé Github
             </p>
             <a href="https://nawelc-cv.netlify.app/">
               <button
