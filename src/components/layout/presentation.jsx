@@ -19,7 +19,7 @@ const presentation = () => {
         className="rounded-full object-cover" data-aos="zoom-in-up"
           src={image}
           alt=""
-          title="image"
+          title=""
           width={100}
           height={100}
         />
