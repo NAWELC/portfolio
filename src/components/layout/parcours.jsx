@@ -24,12 +24,12 @@ const parcours = () => {
           <h2 class="font-medium title-font text-black mb-1 text-xl"></h2>
           <p class=" text-black leading-8" data-aos="zoom-in-left">DEVELOPPEUSE WEB ET WEB MOBILE(2022-2023)
                                                                           ACCES CODE SCHOOL, MEAUX <br /> 
-                                                                          -Intégration d'une maquette <br />
-                                                                          -Intégration d'une landing page <br />
-                                                                          -Création d'un portfolio <br />
-                                                                          -Création d'une agence web <br />
-                                                                          -Création d'un site bancaire <br />
-                                                                          -Création d'une boutique <br />
+                                                                          -Intégration d&apos;une maquette <br />
+                                                                          -Intégration d&apos;une landing page <br />
+                                                                          -Création d&apos;un portfolio <br />
+                                                                          -Création d&apos;une agence web <br />
+                                                                          -Création d&apos;un site bancaire <br />
+                                                                          -Création d&apos;une boutique <br />
                                                                                       </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ const parcours = () => {
                                                                             DEVELOPPEUSE WEB (2021-2022)
                                                                   OPENCLASSROOMS,ONLINE <br />
                                                                   -Initiation au code <br />
-                                                                  -Initiation à l'algorithmie <br />
+                                                                  -Initiation à l&apos;algorithmie <br />
                                                                   -Création de divers projets <br />
                                                                                                     </p>
 
