@@ -17,9 +17,7 @@
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-spring": "^9.5.5",
-    "react-tsparticles": "^2.5.3",
-    "tparticles": "2.5.3"
+    "react-spring": "^9.5.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

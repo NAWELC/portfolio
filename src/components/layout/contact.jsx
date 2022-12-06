@@ -5,23 +5,17 @@ import MailIcon from '@mui/icons-material/Mail';
 const Contact = () => {
 return (
 
-<div class="  px-8  mx-auto mb-12  "data-aos="zoom-in-up">
+<div class="px-0 mx-auto " data-aos="zoom-in-up">
 
 
 
-<section class=" text-gray-800 bg-blue-600 ">
-  <div class="flex flex-wrap lg:pt-8 pb-8">
-    <div class="grow-0 shrink-0 bg- basis-auto md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-      <h2 class="text-3xl font-bold mb-6">Contactez-moi</h2>
+<section class="text-gray-800 bg-[#BBF2D1] text-center">
+  <div class="flex justify-center lg:pt-8 pb-8">
+    <div class="grow-0 shrink-0 basis-auto md:mb-0 w-full md:w-6/12">
+      <h2 class="text-3xl font-bold mb-6 ">Contact</h2>
       <p class="text-gray-500 mb-6">
-        
-      </p>
-      <p class="text-black mb-2"><LocationOnIcon/>77124 Villenoy</p>
-      <p class="text-black mb-2 "><PhoneIcon/> 06 99 38 07 30 </p>
-      <p class="text-black mb-2"><MailIcon/>nawelchaib@hotmail.com</p>
-    </div>
 
-    <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6 ">
+      <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12   ">
       <form>
         <div class="form-group mb-6 ">
             <input type="text" class="form-control block
@@ -96,9 +90,17 @@ return (
           active:bg-blue-800 active:shadow-lg
           transition
           duration-150
-          ease-in-out text-xl">ENVOI</button>
+          ease-in-out ">ENVOI</button>
       </form>
     </div>
+
+        
+      </p>
+      <p class="text-black mb-2"><LocationOnIcon/>77124 Villenoy</p>
+      <p class="text-black mb-2"><MailIcon/>nawelchaib@hotmail.com</p>
+    </div>
+
+    
   </div>
 </section>
 
