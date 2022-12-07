@@ -14,21 +14,12 @@ let styles = {
 const TextPresentation = () => {
   return (
     <div className={styles.text} >
-      <h1 className="font-Anton text-2xl uppercase pb-6"></h1>
-      <p className="font-Berkshire_Swash text-center mx-80 p-4 leading-8">
-        Je suis actuellement en formation de Developpeur-web web mobile a
-        l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
-        janvier au 3 mars 2023. En reconversion professionnelle ,je suis
-        passionnée par l&apos;informatique depuis toujours. Ce que j&apos;aime dans ce
-        métier ,c&apos;est le coté créatif et travailler sur des projets nouveaux
-        afin d&apos;enrichir mes connaissances et évoluer dans ce domaine et donner
-        le meilleur de moi-même .
-      </p>
+     
       
       <div className={styles.padding}>
         <h1 className="font-Anton text-xl lg:text-2xl uppercase pb-12">PROJETS</h1>
-        <div className="lg:grid grid-cols-4 pt-8">
-          <div className="h-150 border-8 pb-8 mx-4" data-aos="flip-left">
+        <div className="lg:grid grid-cols-4 pt-6">
+          <div className="h-150 border-8 pb-8 mx-4 " data-aos="flip-left">
             <Image className="" src={image} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8">
               WIREFRAME

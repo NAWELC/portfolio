@@ -9,7 +9,7 @@ let styles = {
 const presentation = () => {
   return (
     <div className={styles.nom}>
-      <div className ="font-Anton text-center " data-aos="fade-right">
+      <div className ="font-Anton text-center " data-aos="fade-right" >
         <h1>Bonjour, mon nom est</h1>
         <h1>Chaib Nawel ! Je suis</h1>
         <h1>Développeuse web Front-End</h1>
@@ -25,7 +25,16 @@ const presentation = () => {
         />
       </div>
 
-      
+      <h1 className="font-Anton   pb-6"></h1>
+      <p className="font-Berkshire_Swash text-center mx-80 p-4 leading-8">
+        Je suis actuellement en formation de Developpeur-web web mobile a
+        l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
+        janvier au 3 mars 2023. En reconversion professionnelle ,je suis
+        passionnée par l&apos;informatique depuis toujours. Ce que j&apos;aime dans ce
+        métier ,c&apos;est le coté créatif et travailler sur des projets nouveaux
+        afin d&apos;enrichir mes connaissances et évoluer dans ce domaine et donner
+        le meilleur de moi-même .
+      </p>
 
     </div>
   );

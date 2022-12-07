@@ -11,7 +11,7 @@ import IMAGE10 from "@src/assets/img/terminal.png";
 
 const Travail = () => {
   return (
-    <section class="text-gray-600 body-font mt-16   bg-[#EFF2D3]" >
+    <section class="text-gray-600 body-font pt-8  bg-[#EFF2D3]" >
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
