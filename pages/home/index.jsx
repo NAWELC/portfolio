@@ -12,9 +12,9 @@ const HomePage = () => {
         <div class= "">
             <Navbar />
             <Presentation />
-            <TextPresentation />
+            <Parcours />
             <Travail/>
-            <Parcours/>
+            <TextPresentation/>
             <Contact/>
             <Footer />
             

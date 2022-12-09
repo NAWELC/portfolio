@@ -7,15 +7,18 @@ let styles = {
 
 const Footer = () => {
   return (
-    <footer>
-      <div class="p-10 m- mx-30 text-center lg:text-center text-white bg-black">
+    <footer className="text-white bg-black">
+      <div class="py-8 flex justify-center text-white bg-black">
         <a href="https://github.com/NAWELC">
-          <GitHubIcon className="" fontSize="large" />
+          <GitHubIcon className="mr-2" fontSize="large" />
         </a>
         <a href="https://www.linkedin.com/in/nawel-chaib/">
-          <LinkedInIcon className="mx-4 lg:mx-8" fontSize="large" />
+          <LinkedInIcon className="ml-2" fontSize="large" />
         </a>
-        <LocalPhoneIcon classname="" fontsize="large" />
+      </div>
+      <div className="flex flex-col items-center pb-8">
+        <p>Tous droits réservés</p>
+        <p>Nawel Chaib - 2022</p>
       </div>
     </footer>
   );

@@ -4,16 +4,19 @@ import MailIcon from "@mui/icons-material/Mail";
 
 const Contact = () => {
   return (
-    <div className="px-0 mx-auto " data-aos="zoom-in-up">
+    <div className="px-0 mx-auto pt-" data-aos="zoom-in-up">
       <section className="text-gray-800 bg-[#BBF2D1] text-center">
         <div className="flex flex-col justify-center items-center lg:pt-8 pb-8">
-     
-          <h2 className="text-3xl font-bold mb-6 ">Contact</h2>
+          <h2 className="text-3xl font-bold mb-6 uppercase pt-16 " id="contact">Contact</h2>
+          <a href="#contact" aria-hidden="true"></a>
           <div className="md:mb-0 w-full md:w-6/12">
             <p className="text-gray-500 mb-6 w-full flex flex-col justify-center items-center ">
               <div className="mb-12 md:mb-0  md:w-full  lg:w-3/5">
                 <form className="w-full">
                   <div className="form-group mb-6 flex flex-col justify-center items-center">
+                    <label htmlFor="" className="py-2">
+                      Votre nom complet :
+                    </label>
                     <input
                       type="text"
                       className="form-control block
@@ -31,13 +34,16 @@ const Contact = () => {
             m-0
             focus:text-white : focus:border-blue-600 focus:outline-none"
                       id="exampleInput7"
-                      placeholder="Name"
+                      placeholder="Votre nom complet"
                     ></input>
                   </div>
                   <div className="form-group mb-6">
+                    <label htmlFor="" className="">
+                      Votre adresse e-mail :
+                    </label>
                     <input
                       type="email"
-                      className="form-control block
+                      className="form-control block mt-2
             w-full
             px-3
             py-1.5
@@ -52,39 +58,22 @@ const Contact = () => {
             m-0
             focus:text-black focus:bg-white focus:border-blue-600 focus:outline-none"
                       id="exampleInput8"
-                      placeholder="Email address"
+                      placeholder="Votre adresse e-mail"
                     ></input>
                   </div>
                   <div className="form-group mb-6">
+                    <label htmlFor="">Votre message :</label>
                     <textarea
-                      className="
-            form-control
-            block
-            w-full
-            px-3
-            py-1.5
-            text-base
-            font-normal
-            text-gray-700
-            bg-white bg-clip-padding
-            border border-solid border-gray-300
-            rounded
-            transition
-            ease-in-out
-            m-0
-            focus:text-gray-700  focus:bg-white focus:border-blue-600 focus:outline-none
-          "
+                      className="mt-2 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid  border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700  focus:bg-white focus:border-blue-600 focus:outline-none"
                       id="exampleFormControlTextarea13"
                       rows="3"
-                      placeholder="Message"
+                      placeholder="Votre message"
                     ></textarea>
                   </div>
 
                   <button
                     type="submit"
-                    className="
-          w-full
-          px-6
+                    className="w-full px-6
           py-2.5
           bg-white
           text-black
@@ -101,19 +90,29 @@ const Contact = () => {
           duration-150
           ease-in-out "
                   >
-                    ENVOI
+                    Envoyer
                   </button>
                 </form>
               </div>
             </p>
-            <p className="text-black mb-2">
-              <LocationOnIcon />
-              77124 Villenoy
-            </p>
-            <p className="text-black mb-2">
-              <MailIcon />
-              nawelchaib@hotmail.com
-            </p>
+            <div className="my-8 inline-flex text-black">
+              <p className="flex flex-col items-center mr-4">
+                <MailIcon />
+                <a href="mailto:contact@chaib-portfolio.fr">
+                  contact@chaib-portfolio.fr
+                </a>
+              </p>
+              <p className="flex flex-col items-center ml-4">
+                <LocationOnIcon />
+                <a
+                  href="https://www.google.com/maps/place/77124+Villenoy/@48.9406011,2.8165924,13z/data=!3m1!4b1!4m5!3m4!1s0x47e8a0c0cad1226b:0x40b82c3688c4700!8m2!3d48.944224!4d2.865699"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Villenoy 77124
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </section>

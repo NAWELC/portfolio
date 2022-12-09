@@ -13,13 +13,14 @@ let styles = {
 
 const TextPresentation = () => {
   return (
-    <div className={styles.text} >
+    <div id="projets" className={styles.text} >
      
       
       <div className={styles.padding}>
-        <h1 className="font-Anton text-xl lg:text-2xl uppercase pb-12">PROJETS</h1>
+        <h1 className="font-Anton text-xl lg:text-2xl uppercase pt-8 mb-8" >PROJETS</h1>
+        <a href="#projets" aria-hidden="true"></a>
         <div className="lg:grid grid-cols-4 pt-6">
-          <div className="h-150 border-8 pb-8 mx-4 " data-aos="flip-left">
+          <div className="h-150 border-8 pb-8 mx-4 mb-6 " data-aos="flip-left">
             <Image className="" src={image} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8">
               WIREFRAME
@@ -38,7 +39,7 @@ const TextPresentation = () => {
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 " data-aos="flip-left">
+          <div className="h-100 border-8 mx-4 mb-6 " data-aos="flip-left">
             <Image className height={670} src={IMAGE3} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8 ">
               LANDING-PAGE
@@ -58,7 +59,7 @@ const TextPresentation = () => {
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4"data-aos="flip-left">
+          <div className="h-100 border-8 mx-4 mb-6"data-aos="flip-left">
             <Image className height={790} src={IMAGE4} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8">CV</h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
@@ -75,7 +76,7 @@ const TextPresentation = () => {
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4" data-aos="flip-left">
+          <div className="h-100 border-8 mx-4 mb-6" data-aos="flip-left">
             <Image className height={840} src={image5} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8">
               AGENCE-ECLAIR

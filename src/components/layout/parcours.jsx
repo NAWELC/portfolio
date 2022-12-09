@@ -8,8 +8,10 @@ const parcours = () => {
     return (
 
 
-<section class="text-gray-600 body-font bg-[#77A68A]  ">
-    <h1 className="text-center text-black uppercase text-3xl font-medium pt-16">parcours</h1>
+<section id="parcours" class="text-gray-600 body-font bg-[#77A68A] pt-16 ">
+<a href="#parcours" aria-hidden="true">
+        </a>
+    <h1 className="text-center text-black uppercase text-3xl font-medium ">parcours</h1>
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
