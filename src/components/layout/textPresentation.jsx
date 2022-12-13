@@ -13,16 +13,18 @@ let styles = {
 
 const TextPresentation = () => {
   return (
-    <div id="projets" className={styles.text} >
-     
-      
+    <div id="projets" className={styles.text}>
       <div className={styles.padding}>
-        <h1 className="font-Anton text-xl lg:text-2xl uppercase pt-8 mb-8" >PROJETS</h1>
-        <a href="#projets" aria-hidden="true"></a>
-        <div className="lg:grid grid-cols-4 pt-6">
-          <div className="h-150 border-8 pb-8 mx-4 mb-6 " data-aos="flip-left">
+        <h1
+          href="#projets"
+          className="font-Anton underline text-xl lg:text-3xl uppercase pt-20"
+        >
+          PROJETS
+        </h1>
+        <div className="lg:grid grid-cols-4 py-24">
+          <div className="h-150 border-8 pb-8 mx-4 mb-6 " data-aos="flip-left"data-aos-once="false">
             <Image className="" src={image} alt="" />
-            <h5 className="text-gray-900 text-xl font-medium py-8">
+            <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               WIREFRAME
             </h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
@@ -33,15 +35,15 @@ const TextPresentation = () => {
             <a href="https://priscad.promo-171.codeur.online/landing-page/">
               <button
                 type="button"
-                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 mb-6 " data-aos="flip-left">
+          <div className="h-100 border-8 mx-4 mb-6 " data-aos="flip-left"data-aos-once="false">
             <Image className height={670} src={IMAGE3} alt="" />
-            <h5 className="text-gray-900 text-xl font-medium py-8 ">
+            <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               LANDING-PAGE
             </h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
@@ -53,32 +55,35 @@ const TextPresentation = () => {
             <a href="http://public/landingpage/">
               <button
                 type="button"
-                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 mb-6"data-aos="flip-left">
+          <div className="h-100 border-8 mx-4 mb-6" data-aos="flip-left"data-aos-once="false">
             <Image className height={790} src={IMAGE4} alt="" />
-            <h5 className="text-gray-900 text-xl font-medium py-8">CV</h5>
+            <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
+              CV
+            </h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
               j&apos;ai réalisé mon CV avec les langages de programmation HTML
               et CSS et Vanilla qui est un langage de programmation basé sur du
-              texte à la fois côté serveur et client,j&apos;ai aussi utilisé Github
+              texte à la fois côté serveur et client,j&apos;ai aussi utilisé
+              Github
             </p>
             <a href="https://nawelc-cv.netlify.app/">
               <button
                 type="button"
-                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 mb-6" data-aos="flip-left">
+          <div className="h-100 border-8 mx-4 mb-6" data-aos="flip-left"data-aos-once="false">
             <Image className height={840} src={image5} alt="" />
-            <h5 className="text-gray-900 text-xl font-medium py-8">
+            <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               AGENCE-ECLAIR
             </h5>
             <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
@@ -89,7 +94,7 @@ const TextPresentation = () => {
             <a href="https://agence-eclair.netlify.app/">
               <button
                 type="button"
-                class="inline-block px-6 py-2.5   bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
