@@ -20,12 +20,12 @@ const presentation = () => {
           height={100}
         />
       </div>
-      <div className="font-Anton text-center text-4xl" data-aos="fade-right">
+      <div className="font-Anton text-center text-4xl" data-aos="fade-right" data-aos-once="false">
         <h1>Bonjour, mon nom est</h1>
         <h1>Chaib Nawel ! Je suis une</h1>
         <h1>Développeuse web Front-End</h1>
       </div>
-      <p className="font-Berkshire_Swash text-center text-xl mx-80 p-20 leading-8">
+      <p className="font-Berkshire_Swash text-center text-xl mx-80 p-20 leading-8"data-aos-once="false">
         Je suis actuellement en formation de Developpeur-web web mobile a
         l&apos;Acces Code School,je suis à la recherche d&apos;un stage du 9
         janvier au 3 mars 2023. En reconversion professionnelle ,je suis

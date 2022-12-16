@@ -11,7 +11,7 @@ let styles = {
   aspect: "backdrop-blur-sm ",
 };
 
-const TextPresentation = () => {
+const Projets = () => {
   return (
     <div id="projets" className={styles.text}>
       <div className={styles.padding}>
@@ -106,4 +106,4 @@ const TextPresentation = () => {
   );
 };
 
-export default TextPresentation;
+export default Projets;

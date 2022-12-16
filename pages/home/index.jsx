@@ -1,7 +1,7 @@
 import Navbar from '@src/components/layout/navbar'
 import Footer from '@src/components/layout/footer'
 import Presentation from "@src/components/layout/presentation"
-import TextPresentation from '@src/components/layout/textPresentation';
+import Projets from '@src/components/layout/projets';
 import Contact from "@src/components/layout/contact";
 import Travail from "@src/components/layout/travail";
 import footer from  "@src/components/layout/footer";
@@ -14,7 +14,7 @@ const HomePage = () => {
             <Presentation />
             <Parcours />
             <Travail/>
-            <TextPresentation/>
+            <Projets/>
             <Contact/>
             <Footer />
             
