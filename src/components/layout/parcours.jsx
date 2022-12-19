@@ -42,7 +42,7 @@ const parcours = () => {
                 data-aos-once="false"
               >
                 <span className="font-Anton">
-                  DEVELOPPEUSE WEB ET WEB MOBILE(2022-2023) ACCES CODE SCHOOL,
+                  DEVELOPPEUSE WEB ET WEB MOBILE (2022-2023) ACCES CODE SCHOOL,
                   MEAUX
                 </span>
                 <br />

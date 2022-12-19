@@ -2,7 +2,7 @@ import Image from "next/image";
 import image from "@src/assets/img/boxe.png";
 import IMAGE3 from "@src/assets/img/image-landing-page2.png";
 import IMAGE4 from "@src/assets/img/capture-ecran-cv.png";
-import image5 from "@src/assets/img/agence-eclair.png";
+import image5 from "@src/assets/img/agence-eclair-2.png";
 
 let styles = {
   text: " text-center  px-8 pt-10 bg-[#A1A677] ",
@@ -22,7 +22,7 @@ const Projets = () => {
           PROJETS
         </h1>
         <div className="lg:grid grid-cols-4 py-24">
-          <div className="h-150 border-8 pb-8 mx-4 mb-6 " data-aos="flip-left"data-aos-once="false">
+          <div className="h-150 border-8 pb-8 mx-4 mb-6 bg-[#BBF2D1] rounded-lg px-8 pt-6" data-aos="flip-left"data-aos-once="false">
             <Image className="" src={image} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               WIREFRAME
@@ -35,13 +35,13 @@ const Projets = () => {
             <a href="https://priscad.promo-171.codeur.online/landing-page/">
               <button
                 type="button"
-                className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 mb-6 " data-aos="flip-left"data-aos-once="false">
+          <div className="h-100 border-8 mx-4 mb-6 bg-[#BBF2D1] rounded-lg px-8 pt-6" data-aos="flip-left"data-aos-once="false">
             <Image className height={670} src={IMAGE3} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               LANDING-PAGE
@@ -55,34 +55,34 @@ const Projets = () => {
             <a href="http://public/landingpage/">
               <button
                 type="button"
-                className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+          className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 mb-6" data-aos="flip-left"data-aos-once="false">
+          <div className="h-100 border-8 mx-4 mb-6 bg-[#BBF2D1] rounded-lg px-8 pt-6" data-aos="flip-left"data-aos-once="false">
             <Image className height={790} src={IMAGE4} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               CV
             </h5>
-            <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash">
+            <p className="text-gray-700 text-base mb-4 mx-8 font-Berkshire_Swash ">
               j&apos;ai réalisé mon CV avec les langages de programmation HTML
               et CSS et Vanilla qui est un langage de programmation basé sur du
-              texte à la fois côté serveur et client,j&apos;ai aussi utilisé
-              Github
+              texte à la fois côté serveur et client
+          
             </p>
             <a href="https://nawelc-cv.netlify.app/">
               <button
                 type="button"
-                class="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
             </a>
           </div>
-          <div className="h-100 border-8 mx-4 mb-6" data-aos="flip-left"data-aos-once="false">
-            <Image className height={840} src={image5} alt="" />
+          <div className="h-100 border-8 mx-4 mb-6 bg-[#BBF2D1] rounded-lg px-8 pt-6" data-aos="flip-left"data-aos-once="false">
+            <Image className height={850}  src={image5} alt="" />
             <h5 className="text-gray-900 text-xl font-medium py-8 font-Anton">
               AGENCE-ECLAIR
             </h5>
@@ -94,7 +94,7 @@ const Projets = () => {
             <a href="https://agence-eclair.netlify.app/">
               <button
                 type="button"
-                className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="inline-block px-6 py-2.5   bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Visitez
               </button>
