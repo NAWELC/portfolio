@@ -4,7 +4,11 @@ import MailIcon from "@mui/icons-material/Mail";
 
 const Contact = () => {
   return (
-    <div className="px-0 mx-auto pt-" data-aos="zoom-in-up" data-aos-once="false">
+    <div
+      className="px-0 mx-auto pt-"
+      data-aos="zoom-in-up"
+      data-aos-once="false"
+    >
       <section className="text-gray-800 bg-[#BBF2D1] text-center">
         <div className="flex flex-col justify-center items-center">
           <h1
