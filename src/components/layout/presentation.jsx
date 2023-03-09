@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "@src/assets/img/photo-nawel.jpg";
+import image1 from "@src/assets/img/photonawel.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 let styles = {
@@ -14,7 +14,7 @@ const presentation = () => {
         <Image
           className="rounded-full object-cover"
           data-aos="zoom-in-up"
-          src={image}
+          src={image1}
           alt=""
           title=""
           width={100}
